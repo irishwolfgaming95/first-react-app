@@ -24,11 +24,12 @@ function App() {
         <p>My favorite thing to do is {hobbies}</p>
         <p> Let the experimenting begin. </p>
       </header>
+        <p>I hope your day is going well!</p>
     </div>
   );
 }
 function Welcome({name}) {
-  return (<h1>Hello, {name}</h1>)
+  return (<h1>Hello, {name}</h1>);
 };
 
 export default App ;
